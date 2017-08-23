@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+project 'Lottie-example.project'
+target 'Lottie-example' do
+    pod 'lottie-ios'
+end

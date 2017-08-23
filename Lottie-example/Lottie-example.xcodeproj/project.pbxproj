@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C42AD7C632523731B70E04 /* libPods-Lottie-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C023CEE46A3FC807A658DA68 /* libPods-Lottie-example.a */; };
+		DAB90D2B1F4D0F4300215CF3 /* AnimationTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D2A1F4D0F4300215CF3 /* AnimationTransitionViewController.m */; };
+		DAB90D2E1F4D0F5400215CF3 /* AnimationToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D2D1F4D0F5400215CF3 /* AnimationToViewController.m */; };
+		DAB90D5D1F4D177C00215CF3 /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D321F4D177C00215CF3 /* 9squares-AlBoardman.json */; };
+		DAB90D5E1F4D177C00215CF3 /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D331F4D177C00215CF3 /* HamburgerArrow.json */; };
+		DAB90D5F1F4D177C00215CF3 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D341F4D177C00215CF3 /* IconTransitions.json */; };
+		DAB90D601F4D177C00215CF3 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D351F4D177C00215CF3 /* LottieLogo1.json */; };
+		DAB90D611F4D177C00215CF3 /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D361F4D177C00215CF3 /* LottieLogo1_masked.json */; };
+		DAB90D621F4D177C00215CF3 /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D371F4D177C00215CF3 /* LottieLogo2.json */; };
+		DAB90D631F4D177C00215CF3 /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D381F4D177C00215CF3 /* MotionCorpse-Jrcanest.json */; };
+		DAB90D641F4D177C00215CF3 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D391F4D177C00215CF3 /* PinJump.json */; };
+		DAB90D651F4D177C00215CF3 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D3A1F4D177C00215CF3 /* TwitterHeart.json */; };
+		DAB90D661F4D177C00215CF3 /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D3C1F4D177C00215CF3 /* A.json */; };
+		DAB90D671F4D177C00215CF3 /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D3D1F4D177C00215CF3 /* Apostrophe.json */; };
+		DAB90D681F4D177C00215CF3 /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D3E1F4D177C00215CF3 /* B.json */; };
+		DAB90D691F4D177C00215CF3 /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D3F1F4D177C00215CF3 /* BlinkingCursor.json */; };
+		DAB90D6A1F4D177C00215CF3 /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D401F4D177C00215CF3 /* C.json */; };
+		DAB90D6B1F4D177C00215CF3 /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D411F4D177C00215CF3 /* Colon.json */; };
+		DAB90D6C1F4D177C00215CF3 /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D421F4D177C00215CF3 /* Comma.json */; };
+		DAB90D6D1F4D177C00215CF3 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D431F4D177C00215CF3 /* D.json */; };
+		DAB90D6E1F4D177C00215CF3 /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D441F4D177C00215CF3 /* E.json */; };
+		DAB90D6F1F4D177C00215CF3 /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D451F4D177C00215CF3 /* F.json */; };
+		DAB90D701F4D177C00215CF3 /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D461F4D177C00215CF3 /* G.json */; };
+		DAB90D711F4D177C00215CF3 /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D471F4D177C00215CF3 /* H.json */; };
+		DAB90D721F4D177C00215CF3 /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D481F4D177C00215CF3 /* I.json */; };
+		DAB90D731F4D177C00215CF3 /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D491F4D177C00215CF3 /* J.json */; };
+		DAB90D741F4D177C00215CF3 /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4A1F4D177C00215CF3 /* K.json */; };
+		DAB90D751F4D177C00215CF3 /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4B1F4D177C00215CF3 /* L.json */; };
+		DAB90D761F4D177C00215CF3 /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4C1F4D177C00215CF3 /* M.json */; };
+		DAB90D771F4D177C00215CF3 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4D1F4D177C00215CF3 /* N.json */; };
+		DAB90D781F4D177C00215CF3 /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4E1F4D177C00215CF3 /* O.json */; };
+		DAB90D791F4D177C00215CF3 /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D4F1F4D177C00215CF3 /* P.json */; };
+		DAB90D7A1F4D177C00215CF3 /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D501F4D177C00215CF3 /* Q.json */; };
+		DAB90D7B1F4D177C00215CF3 /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D511F4D177C00215CF3 /* R.json */; };
+		DAB90D7C1F4D177C00215CF3 /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D521F4D177C00215CF3 /* S.json */; };
+		DAB90D7D1F4D177C00215CF3 /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D531F4D177C00215CF3 /* T.json */; };
+		DAB90D7E1F4D177C00215CF3 /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D541F4D177C00215CF3 /* U.json */; };
+		DAB90D7F1F4D177C00215CF3 /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D551F4D177C00215CF3 /* V.json */; };
+		DAB90D801F4D177C00215CF3 /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D561F4D177C00215CF3 /* W.json */; };
+		DAB90D811F4D177C00215CF3 /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D571F4D177C00215CF3 /* X.json */; };
+		DAB90D821F4D177C00215CF3 /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D581F4D177C00215CF3 /* Y.json */; };
+		DAB90D831F4D177C00215CF3 /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D591F4D177C00215CF3 /* Z.json */; };
+		DAB90D841F4D177C00215CF3 /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D5A1F4D177C00215CF3 /* vcTransition1.json */; };
+		DAB90D851F4D177C00215CF3 /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D5B1F4D177C00215CF3 /* vcTransition2.json */; };
+		DAB90D861F4D177C00215CF3 /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D5C1F4D177C00215CF3 /* Watermelon.json */; };
+		DAB90D8B1F4D2BEB00215CF3 /* AnimatedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D881F4D2BEB00215CF3 /* AnimatedTextField.m */; };
+		DAB90D8C1F4D2BEB00215CF3 /* TypingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D8A1F4D2BEB00215CF3 /* TypingDemoViewController.m */; };
+		DAB90D931F4D2C8600215CF3 /* AnimationExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D8E1F4D2C8600215CF3 /* AnimationExplorerViewController.m */; };
+		DAB90D941F4D2C8600215CF3 /* JSONExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D901F4D2C8600215CF3 /* JSONExplorerViewController.m */; };
+		DAB90D951F4D2C8600215CF3 /* LAQRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90D921F4D2C8600215CF3 /* LAQRScannerViewController.m */; };
+		DAB90D971F4D2ED800215CF3 /* skeleton_frame_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D961F4D2ED800215CF3 /* skeleton_frame_loading.json */; };
+		DAB90D9D1F4D2FB400215CF3 /* newAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB90D9B1F4D2FB400215CF3 /* newAnimation.json */; };
+		DABE44401F4C6DBF00BA27B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABE443F1F4C6DBF00BA27B7 /* main.m */; };
+		DABE44431F4C6DBF00BA27B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABE44421F4C6DBF00BA27B7 /* AppDelegate.m */; };
+		DABE44461F4C6DBF00BA27B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABE44451F4C6DBF00BA27B7 /* ViewController.m */; };
+		DABE44491F4C6DBF00BA27B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE44471F4C6DBF00BA27B7 /* Main.storyboard */; };
+		DABE444B1F4C6DBF00BA27B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABE444A1F4C6DBF00BA27B7 /* Assets.xcassets */; };
+		DABE444E1F4C6DBF00BA27B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE444C1F4C6DBF00BA27B7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43529F5567C32C5455064DB3 /* Pods-Lottie-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-example/Pods-Lottie-example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B19278366BB4323D400CAC8 /* Pods-Lottie-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-example/Pods-Lottie-example.release.xcconfig"; sourceTree = "<group>"; };
+		C023CEE46A3FC807A658DA68 /* libPods-Lottie-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lottie-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB90D291F4D0F4300215CF3 /* AnimationTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTransitionViewController.h; sourceTree = "<group>"; };
+		DAB90D2A1F4D0F4300215CF3 /* AnimationTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionViewController.m; sourceTree = "<group>"; };
+		DAB90D2C1F4D0F5400215CF3 /* AnimationToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationToViewController.h; sourceTree = "<group>"; };
+		DAB90D2D1F4D0F5400215CF3 /* AnimationToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationToViewController.m; sourceTree = "<group>"; };
+		DAB90D321F4D177C00215CF3 /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		DAB90D331F4D177C00215CF3 /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		DAB90D341F4D177C00215CF3 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		DAB90D351F4D177C00215CF3 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		DAB90D361F4D177C00215CF3 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		DAB90D371F4D177C00215CF3 /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		DAB90D381F4D177C00215CF3 /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		DAB90D391F4D177C00215CF3 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		DAB90D3A1F4D177C00215CF3 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		DAB90D3C1F4D177C00215CF3 /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		DAB90D3D1F4D177C00215CF3 /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		DAB90D3E1F4D177C00215CF3 /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		DAB90D3F1F4D177C00215CF3 /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		DAB90D401F4D177C00215CF3 /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		DAB90D411F4D177C00215CF3 /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		DAB90D421F4D177C00215CF3 /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		DAB90D431F4D177C00215CF3 /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		DAB90D441F4D177C00215CF3 /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		DAB90D451F4D177C00215CF3 /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		DAB90D461F4D177C00215CF3 /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		DAB90D471F4D177C00215CF3 /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		DAB90D481F4D177C00215CF3 /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		DAB90D491F4D177C00215CF3 /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		DAB90D4A1F4D177C00215CF3 /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		DAB90D4B1F4D177C00215CF3 /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		DAB90D4C1F4D177C00215CF3 /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		DAB90D4D1F4D177C00215CF3 /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		DAB90D4E1F4D177C00215CF3 /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		DAB90D4F1F4D177C00215CF3 /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		DAB90D501F4D177C00215CF3 /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		DAB90D511F4D177C00215CF3 /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		DAB90D521F4D177C00215CF3 /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		DAB90D531F4D177C00215CF3 /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		DAB90D541F4D177C00215CF3 /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		DAB90D551F4D177C00215CF3 /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		DAB90D561F4D177C00215CF3 /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		DAB90D571F4D177C00215CF3 /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		DAB90D581F4D177C00215CF3 /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		DAB90D591F4D177C00215CF3 /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		DAB90D5A1F4D177C00215CF3 /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		DAB90D5B1F4D177C00215CF3 /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		DAB90D5C1F4D177C00215CF3 /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		DAB90D871F4D2BEB00215CF3 /* AnimatedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTextField.h; sourceTree = "<group>"; };
+		DAB90D881F4D2BEB00215CF3 /* AnimatedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTextField.m; sourceTree = "<group>"; };
+		DAB90D891F4D2BEB00215CF3 /* TypingDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingDemoViewController.h; sourceTree = "<group>"; };
+		DAB90D8A1F4D2BEB00215CF3 /* TypingDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingDemoViewController.m; sourceTree = "<group>"; };
+		DAB90D8D1F4D2C8600215CF3 /* AnimationExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationExplorerViewController.h; sourceTree = "<group>"; };
+		DAB90D8E1F4D2C8600215CF3 /* AnimationExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationExplorerViewController.m; sourceTree = "<group>"; };
+		DAB90D8F1F4D2C8600215CF3 /* JSONExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONExplorerViewController.h; sourceTree = "<group>"; };
+		DAB90D901F4D2C8600215CF3 /* JSONExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONExplorerViewController.m; sourceTree = "<group>"; };
+		DAB90D911F4D2C8600215CF3 /* LAQRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAQRScannerViewController.h; sourceTree = "<group>"; };
+		DAB90D921F4D2C8600215CF3 /* LAQRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAQRScannerViewController.m; sourceTree = "<group>"; };
+		DAB90D961F4D2ED800215CF3 /* skeleton_frame_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skeleton_frame_loading.json; sourceTree = "<group>"; };
+		DAB90D9B1F4D2FB400215CF3 /* newAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newAnimation.json; sourceTree = "<group>"; };
+		DABE443B1F4C6DBF00BA27B7 /* Lottie-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABE443F1F4C6DBF00BA27B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABE44411F4C6DBF00BA27B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DABE44421F4C6DBF00BA27B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DABE44441F4C6DBF00BA27B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DABE44451F4C6DBF00BA27B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DABE44481F4C6DBF00BA27B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABE444A1F4C6DBF00BA27B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABE444D1F4C6DBF00BA27B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABE444F1F4C6DBF00BA27B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABE44381F4C6DBF00BA27B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C42AD7C632523731B70E04 /* libPods-Lottie-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5336E09CCA49CCE630C7B9FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C023CEE46A3FC807A658DA68 /* libPods-Lottie-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD8677F602E29656FB8B9150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43529F5567C32C5455064DB3 /* Pods-Lottie-example.debug.xcconfig */,
+				5B19278366BB4323D400CAC8 /* Pods-Lottie-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAB90D261F4D0D7D00215CF3 /* Animation Typing */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D871F4D2BEB00215CF3 /* AnimatedTextField.h */,
+				DAB90D881F4D2BEB00215CF3 /* AnimatedTextField.m */,
+				DAB90D891F4D2BEB00215CF3 /* TypingDemoViewController.h */,
+				DAB90D8A1F4D2BEB00215CF3 /* TypingDemoViewController.m */,
+			);
+			path = "Animation Typing";
+			sourceTree = "<group>";
+		};
+		DAB90D271F4D0D7D00215CF3 /* Animation Transition */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D291F4D0F4300215CF3 /* AnimationTransitionViewController.h */,
+				DAB90D2A1F4D0F4300215CF3 /* AnimationTransitionViewController.m */,
+				DAB90D2C1F4D0F5400215CF3 /* AnimationToViewController.h */,
+				DAB90D2D1F4D0F5400215CF3 /* AnimationToViewController.m */,
+			);
+			path = "Animation Transition";
+			sourceTree = "<group>";
+		};
+		DAB90D281F4D0D7D00215CF3 /* Animation Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D8D1F4D2C8600215CF3 /* AnimationExplorerViewController.h */,
+				DAB90D8E1F4D2C8600215CF3 /* AnimationExplorerViewController.m */,
+				DAB90D8F1F4D2C8600215CF3 /* JSONExplorerViewController.h */,
+				DAB90D901F4D2C8600215CF3 /* JSONExplorerViewController.m */,
+				DAB90D911F4D2C8600215CF3 /* LAQRScannerViewController.h */,
+				DAB90D921F4D2C8600215CF3 /* LAQRScannerViewController.m */,
+			);
+			path = "Animation Explorer";
+			sourceTree = "<group>";
+		};
+		DAB90D2F1F4D177C00215CF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D301F4D177C00215CF3 /* Image */,
+				DAB90D311F4D177C00215CF3 /* Json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAB90D301F4D177C00215CF3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		DAB90D311F4D177C00215CF3 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D9B1F4D2FB400215CF3 /* newAnimation.json */,
+				DAB90D961F4D2ED800215CF3 /* skeleton_frame_loading.json */,
+				DAB90D321F4D177C00215CF3 /* 9squares-AlBoardman.json */,
+				DAB90D331F4D177C00215CF3 /* HamburgerArrow.json */,
+				DAB90D341F4D177C00215CF3 /* IconTransitions.json */,
+				DAB90D351F4D177C00215CF3 /* LottieLogo1.json */,
+				DAB90D361F4D177C00215CF3 /* LottieLogo1_masked.json */,
+				DAB90D371F4D177C00215CF3 /* LottieLogo2.json */,
+				DAB90D381F4D177C00215CF3 /* MotionCorpse-Jrcanest.json */,
+				DAB90D391F4D177C00215CF3 /* PinJump.json */,
+				DAB90D3A1F4D177C00215CF3 /* TwitterHeart.json */,
+				DAB90D3B1F4D177C00215CF3 /* TypeFace */,
+				DAB90D5A1F4D177C00215CF3 /* vcTransition1.json */,
+				DAB90D5B1F4D177C00215CF3 /* vcTransition2.json */,
+				DAB90D5C1F4D177C00215CF3 /* Watermelon.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		DAB90D3B1F4D177C00215CF3 /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90D3C1F4D177C00215CF3 /* A.json */,
+				DAB90D3D1F4D177C00215CF3 /* Apostrophe.json */,
+				DAB90D3E1F4D177C00215CF3 /* B.json */,
+				DAB90D3F1F4D177C00215CF3 /* BlinkingCursor.json */,
+				DAB90D401F4D177C00215CF3 /* C.json */,
+				DAB90D411F4D177C00215CF3 /* Colon.json */,
+				DAB90D421F4D177C00215CF3 /* Comma.json */,
+				DAB90D431F4D177C00215CF3 /* D.json */,
+				DAB90D441F4D177C00215CF3 /* E.json */,
+				DAB90D451F4D177C00215CF3 /* F.json */,
+				DAB90D461F4D177C00215CF3 /* G.json */,
+				DAB90D471F4D177C00215CF3 /* H.json */,
+				DAB90D481F4D177C00215CF3 /* I.json */,
+				DAB90D491F4D177C00215CF3 /* J.json */,
+				DAB90D4A1F4D177C00215CF3 /* K.json */,
+				DAB90D4B1F4D177C00215CF3 /* L.json */,
+				DAB90D4C1F4D177C00215CF3 /* M.json */,
+				DAB90D4D1F4D177C00215CF3 /* N.json */,
+				DAB90D4E1F4D177C00215CF3 /* O.json */,
+				DAB90D4F1F4D177C00215CF3 /* P.json */,
+				DAB90D501F4D177C00215CF3 /* Q.json */,
+				DAB90D511F4D177C00215CF3 /* R.json */,
+				DAB90D521F4D177C00215CF3 /* S.json */,
+				DAB90D531F4D177C00215CF3 /* T.json */,
+				DAB90D541F4D177C00215CF3 /* U.json */,
+				DAB90D551F4D177C00215CF3 /* V.json */,
+				DAB90D561F4D177C00215CF3 /* W.json */,
+				DAB90D571F4D177C00215CF3 /* X.json */,
+				DAB90D581F4D177C00215CF3 /* Y.json */,
+				DAB90D591F4D177C00215CF3 /* Z.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		DABE44321F4C6DBE00BA27B7 = {
+			isa = PBXGroup;
+			children = (
+				DABE443D1F4C6DBF00BA27B7 /* Lottie-example */,
+				DABE443C1F4C6DBF00BA27B7 /* Products */,
+				AD8677F602E29656FB8B9150 /* Pods */,
+				5336E09CCA49CCE630C7B9FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DABE443C1F4C6DBF00BA27B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABE443B1F4C6DBF00BA27B7 /* Lottie-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABE443D1F4C6DBF00BA27B7 /* Lottie-example */ = {
+			isa = PBXGroup;
+			children = (
+				DABE44411F4C6DBF00BA27B7 /* AppDelegate.h */,
+				DABE44421F4C6DBF00BA27B7 /* AppDelegate.m */,
+				DABE44441F4C6DBF00BA27B7 /* ViewController.h */,
+				DABE44451F4C6DBF00BA27B7 /* ViewController.m */,
+				DAB90D261F4D0D7D00215CF3 /* Animation Typing */,
+				DAB90D271F4D0D7D00215CF3 /* Animation Transition */,
+				DAB90D281F4D0D7D00215CF3 /* Animation Explorer */,
+				DAB90D2F1F4D177C00215CF3 /* Resources */,
+				DABE44471F4C6DBF00BA27B7 /* Main.storyboard */,
+				DABE444A1F4C6DBF00BA27B7 /* Assets.xcassets */,
+				DABE444C1F4C6DBF00BA27B7 /* LaunchScreen.storyboard */,
+				DABE444F1F4C6DBF00BA27B7 /* Info.plist */,
+				DABE443E1F4C6DBF00BA27B7 /* Supporting Files */,
+			);
+			path = "Lottie-example";
+			sourceTree = "<group>";
+		};
+		DABE443E1F4C6DBF00BA27B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABE443F1F4C6DBF00BA27B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABE443A1F4C6DBF00BA27B7 /* Lottie-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABE44521F4C6DBF00BA27B7 /* Build configuration list for PBXNativeTarget "Lottie-example" */;
+			buildPhases = (
+				A056686311B7281ACEEED1E6 /* [CP] Check Pods Manifest.lock */,
+				DABE44371F4C6DBF00BA27B7 /* Sources */,
+				DABE44381F4C6DBF00BA27B7 /* Frameworks */,
+				DABE44391F4C6DBF00BA27B7 /* Resources */,
+				A6467AD6E04B8EAE8C85FF4C /* [CP] Embed Pods Frameworks */,
+				19C4A1D7609EC64BD1F46A84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie-example";
+			productName = "Lottie-example";
+			productReference = DABE443B1F4C6DBF00BA27B7 /* Lottie-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABE44331F4C6DBF00BA27B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zero;
+				TargetAttributes = {
+					DABE443A1F4C6DBF00BA27B7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DABE44361F4C6DBF00BA27B7 /* Build configuration list for PBXProject "Lottie-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABE44321F4C6DBE00BA27B7;
+			productRefGroup = DABE443C1F4C6DBF00BA27B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABE443A1F4C6DBF00BA27B7 /* Lottie-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABE44391F4C6DBF00BA27B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB90D801F4D177C00215CF3 /* W.json in Resources */,
+				DAB90D771F4D177C00215CF3 /* N.json in Resources */,
+				DAB90D731F4D177C00215CF3 /* J.json in Resources */,
+				DAB90D9D1F4D2FB400215CF3 /* newAnimation.json in Resources */,
+				DAB90D7B1F4D177C00215CF3 /* R.json in Resources */,
+				DAB90D681F4D177C00215CF3 /* B.json in Resources */,
+				DAB90D7F1F4D177C00215CF3 /* V.json in Resources */,
+				DAB90D831F4D177C00215CF3 /* Z.json in Resources */,
+				DAB90D661F4D177C00215CF3 /* A.json in Resources */,
+				DAB90D851F4D177C00215CF3 /* vcTransition2.json in Resources */,
+				DAB90D6C1F4D177C00215CF3 /* Comma.json in Resources */,
+				DAB90D651F4D177C00215CF3 /* TwitterHeart.json in Resources */,
+				DAB90D821F4D177C00215CF3 /* Y.json in Resources */,
+				DABE444E1F4C6DBF00BA27B7 /* LaunchScreen.storyboard in Resources */,
+				DAB90D751F4D177C00215CF3 /* L.json in Resources */,
+				DAB90D721F4D177C00215CF3 /* I.json in Resources */,
+				DAB90D641F4D177C00215CF3 /* PinJump.json in Resources */,
+				DAB90D711F4D177C00215CF3 /* H.json in Resources */,
+				DAB90D6E1F4D177C00215CF3 /* E.json in Resources */,
+				DAB90D631F4D177C00215CF3 /* MotionCorpse-Jrcanest.json in Resources */,
+				DAB90D601F4D177C00215CF3 /* LottieLogo1.json in Resources */,
+				DAB90D741F4D177C00215CF3 /* K.json in Resources */,
+				DAB90D691F4D177C00215CF3 /* BlinkingCursor.json in Resources */,
+				DAB90D5E1F4D177C00215CF3 /* HamburgerArrow.json in Resources */,
+				DAB90D6D1F4D177C00215CF3 /* D.json in Resources */,
+				DAB90D781F4D177C00215CF3 /* O.json in Resources */,
+				DAB90D7C1F4D177C00215CF3 /* S.json in Resources */,
+				DAB90D761F4D177C00215CF3 /* M.json in Resources */,
+				DABE444B1F4C6DBF00BA27B7 /* Assets.xcassets in Resources */,
+				DAB90D621F4D177C00215CF3 /* LottieLogo2.json in Resources */,
+				DAB90D5F1F4D177C00215CF3 /* IconTransitions.json in Resources */,
+				DAB90D7E1F4D177C00215CF3 /* U.json in Resources */,
+				DABE44491F4C6DBF00BA27B7 /* Main.storyboard in Resources */,
+				DAB90D6F1F4D177C00215CF3 /* F.json in Resources */,
+				DAB90D811F4D177C00215CF3 /* X.json in Resources */,
+				DAB90D611F4D177C00215CF3 /* LottieLogo1_masked.json in Resources */,
+				DAB90D841F4D177C00215CF3 /* vcTransition1.json in Resources */,
+				DAB90D6A1F4D177C00215CF3 /* C.json in Resources */,
+				DAB90D971F4D2ED800215CF3 /* skeleton_frame_loading.json in Resources */,
+				DAB90D7A1F4D177C00215CF3 /* Q.json in Resources */,
+				DAB90D7D1F4D177C00215CF3 /* T.json in Resources */,
+				DAB90D671F4D177C00215CF3 /* Apostrophe.json in Resources */,
+				DAB90D861F4D177C00215CF3 /* Watermelon.json in Resources */,
+				DAB90D5D1F4D177C00215CF3 /* 9squares-AlBoardman.json in Resources */,
+				DAB90D701F4D177C00215CF3 /* G.json in Resources */,
+				DAB90D791F4D177C00215CF3 /* P.json in Resources */,
+				DAB90D6B1F4D177C00215CF3 /* Colon.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19C4A1D7609EC64BD1F46A84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-example/Pods-Lottie-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A056686311B7281ACEEED1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottie-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6467AD6E04B8EAE8C85FF4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-example/Pods-Lottie-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABE44371F4C6DBF00BA27B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB90D8B1F4D2BEB00215CF3 /* AnimatedTextField.m in Sources */,
+				DAB90D951F4D2C8600215CF3 /* LAQRScannerViewController.m in Sources */,
+				DAB90D8C1F4D2BEB00215CF3 /* TypingDemoViewController.m in Sources */,
+				DAB90D2B1F4D0F4300215CF3 /* AnimationTransitionViewController.m in Sources */,
+				DABE44461F4C6DBF00BA27B7 /* ViewController.m in Sources */,
+				DAB90D931F4D2C8600215CF3 /* AnimationExplorerViewController.m in Sources */,
+				DAB90D941F4D2C8600215CF3 /* JSONExplorerViewController.m in Sources */,
+				DABE44431F4C6DBF00BA27B7 /* AppDelegate.m in Sources */,
+				DAB90D2E1F4D0F5400215CF3 /* AnimationToViewController.m in Sources */,
+				DABE44401F4C6DBF00BA27B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DABE44471F4C6DBF00BA27B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABE44481F4C6DBF00BA27B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABE444C1F4C6DBF00BA27B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABE444D1F4C6DBF00BA27B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABE44501F4C6DBF00BA27B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABE44511F4C6DBF00BA27B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABE44531F4C6DBF00BA27B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43529F5567C32C5455064DB3 /* Pods-Lottie-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lottie-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.Lottie-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DABE44541F4C6DBF00BA27B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B19278366BB4323D400CAC8 /* Pods-Lottie-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lottie-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.Lottie-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABE44361F4C6DBF00BA27B7 /* Build configuration list for PBXProject "Lottie-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABE44501F4C6DBF00BA27B7 /* Debug */,
+				DABE44511F4C6DBF00BA27B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABE44521F4C6DBF00BA27B7 /* Build configuration list for PBXNativeTarget "Lottie-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABE44531F4C6DBF00BA27B7 /* Debug */,
+				DABE44541F4C6DBF00BA27B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABE44331F4C6DBF00BA27B7 /* Project object */;
+}
